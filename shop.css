@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(15, 13, 13);
+}
+#head{
+    background-color: red;
+    display: flex; 
+    width: 100%;
+    align-items: center;
+}
+#carttop{
+    padding-left: 70%;
+}
+h1{
+    color: white;
+}
+ion-icon {
+  font-size: 45px;
+  
+}
+.pic{
+    background-color: white;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    font-size: 25px;
+    height: 330px ;
+    width: 210px;
+    
+}
+#allpic{
+    display: grid;
+    position: relative;
+    grid-template-columns:repeat(4, 1fr);;
+    flex-direction: row;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.cart{
+    position: absolute;
+    left: 190px;
+    top: 82%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 70px;
+    width: 80px;
+}
+.cart:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#carttop:hover{
+    cursor: pointer;
+}
+
+.totalbill{
+    background-color: whitesmoke;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    visibility: hidden;
+    transition: 0.4s;
+    overflow: auto;
+
+}
+#body{
+    display: flex;
+}
+
+.totalbill h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    width: 180px;
+    color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+.opentotalbill{
+    visibility: visible;
+
+}
+
+.close{
+    
+    padding-left: 90%;
+}
+#product{
+    
+    padding: 30px;
+    display: grid;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    font-size: 25px;
+    height: 130px ;
+    width: 310px;
+    justify-content: space-between;
+    gap: 20px;
+    grid-template-columns:repeat(1, 1fr);;
+    scrollbar-width: thin;
+
+}
+.billing{
+    display: flex;
+    background-color: rgb(180, 196, 210);
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px gray;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px;
+    height: 140px ;
+    width: 350px;
+}
+.billi{
+     width: 100px;
+     height: 100px;
+}

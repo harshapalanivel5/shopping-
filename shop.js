@@ -13,7 +13,7 @@ for(let i=0;i<carts.length;i++){
         let parent = e.target.parentElement;
 
         let name = parent.querySelector(".name").innerText;
-        let price = +parent.querySelector(".price").innerText.replace(/\D/g,"");
+        let pricetext = parent.querySelector(".price").innerText;
         let price = Number(pricetext.replace("Rs : ", ""));
         let img = parent.querySelector(".img").src;
         
@@ -82,3 +82,4 @@ function calculateTotal() {
 }
 
 calculateTotal()
+
